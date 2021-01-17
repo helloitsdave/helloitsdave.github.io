@@ -1,7 +1,7 @@
 :root {
     --text-bg-color:  rgb(255, 255, 255);
     --main-text-bg-color:  rgb(255, 255, 255);
-    --bright-bg-color: rgb(0, 0, 0);
+    --bright-bg-color: rgb(204, 44, 44);
     --dark-bg-color: black;
     --light-text-color: rgb(255, 255, 255);
 }
@@ -11,107 +11,112 @@ padding: 0;
 }
 html {
 /* border: solid 1px; */
-text-align: center;
-font-family: 'Oswald';
-font-size: 20px;
-color: white;
-background-size: 100vw;
-position: relative;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: white;
+    background-size: 100vw;
+    position: relative;
 /* background: url(./img/sketch3.jpg) fixed;    */
 }
 main {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
-.inner-text {
-background: var(--text-bg-color);
-opacity: 90%;
-text-align: center;
-flex: 1 1 0px;
-color: black;
+    .inner-text {
+    background: var(--text-bg-color);
+    opacity: 90%;
+    text-align: center;
+    flex: 1 1 0px;
+    color: black;
 }
-header {
-background-color: white;
-font-size: 1.15rem;
-color: black;
+    header {
+    background-color: white;
+    font-size: 1.15rem;
+    color: white;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url(/img/sketch1.jpg) 0vh;
 }
 footer {
-background-color: var(--bright-bg-color);
-font-size: 1.5rem;
-opacity: 90%;
+    background-color: var(--bright-bg-color);
+    font-size: 1.5rem;
+    opacity: 90%;
 }
 section {
-flex-wrap: 100%;
-font-size: 0.75rem;
+    flex-wrap: 100%;
+    font-size: 0.75rem;
 } 
 .strip {
-background-color: var(--bright-bg-color);
-font-size: 2rem;
-color: var(--main-text-bg-color);
+    background-color: var(--bright-bg-color);
+    font-size: 2rem;
+    color: var(--main-text-bg-color);
 }
 nav {
-position: sticky;
-top: 0;
-z-index: 100;
-background-color: var(--bright-bg-color);
-opacity: 95%;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: var(--bright-bg-color);
+    opacity: 95%;
 }
 img {
-width: 75vw;
-border-radius: 15px;
-margin: 5px;
+    width: 75vw;
+    border-radius: 15px;
+    margin: 5px;
 } 
 iframe {
-border-radius: 5px;
-margin: 5px;
-width: 75vw;
+    border-radius: 5px;
+    margin: 5px;
+    width: 75vw;
 }
 li {
-display: inline-block;
-border: 1.75px solid;
-border-radius: 30px;
-background-color: var(--bright-bg-color);
-padding: 5px;
-margin: 5px 5px 5px 0px;
-font-size: 0.50rem;
+    display: inline-block;
+    border: 2px solid;
+    border-radius: 30px;
+    background-color: var(--bright-bg-color);
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+    font-size: 0.50rem;
 }
 li:hover {
-background-color: var(--dark-bg-color);
+    background-color: var(--dark-bg-color);
 }
 .spacer {
-background-color: var(--dark-bg-color);
-height: 1.25vh;
+    background-color: var(--dark-bg-color);
+    height: 1.25vh;
 }
 .large-spacer {
-height: 50vh;
-background: url(./img/sketch1.jpg) no-repeat fixed 0vh;
-background-size: 100%;
+    height: 50vh;
+    background: url(./img/sketch1.jpg) no-repeat fixed 0vh;
+    background-size: 100%;
 }
 
 ul {
-padding-inline-start: 0vw;
+    padding-inline-start: 0vw;
 }
 a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 }
 .bio {
-display:flex;
-background-color: var(--main-text-bg-color);
-opacity: 95%;
-flex-flow: column wrap;
+    display:flex;
+    background-color: var(--main-text-bg-color);
+    opacity: 95%;
+    flex-flow: column wrap;
 }
 .hero {
-border-radius: 1px var(--dark-bg-color);
-padding: 10px;
+    border-radius: 1px var(--dark-bg-color);
+    padding: 10px;
 
 /* flex: 1 1 0px; */
 }
 .intro-text {
-color: black;
-margin: 0px, 0px, 5px, 0px;
-padding: 5%;
-font-size: 0.8rem;
+    color: black;
+    margin: 0px, 0px, 5px, 0px;
+    padding: 5%;
+    font-size: 0.8rem;
 /* flex: 1 1 0px; */
 }
 .hero-img {

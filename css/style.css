@@ -1,0 +1,157 @@
+:root {
+    --text-bg-color:  rgb(255, 255, 255);
+    --main-text-bg-color:  rgb(255, 255, 255);
+    --bright-bg-color: rgb(0, 0, 0);
+    --dark-bg-color: black;
+    --light-text-color: rgb(255, 255, 255);
+}
+* {
+margin: 0;
+padding: 0;
+}
+html {
+/* border: solid 1px; */
+text-align: center;
+font-family: 'Oswald';
+font-size: 20px;
+color: white;
+background-size: 100vw;
+position: relative;
+/* background: url(./img/sketch3.jpg) fixed;    */
+}
+main {
+display: flex;
+flex-direction: column;
+}
+.inner-text {
+background: var(--text-bg-color);
+opacity: 90%;
+text-align: center;
+flex: 1 1 0px;
+color: black;
+}
+header {
+background-color: white;
+font-size: 1.15rem;
+color: black;
+}
+footer {
+background-color: var(--bright-bg-color);
+font-size: 1.5rem;
+opacity: 90%;
+}
+section {
+flex-wrap: 100%;
+font-size: 0.75rem;
+} 
+.strip {
+background-color: var(--bright-bg-color);
+font-size: 2rem;
+color: var(--main-text-bg-color);
+}
+nav {
+position: sticky;
+top: 0;
+z-index: 100;
+background-color: var(--bright-bg-color);
+opacity: 95%;
+}
+img {
+width: 75vw;
+border-radius: 15px;
+margin: 5px;
+} 
+iframe {
+border-radius: 5px;
+margin: 5px;
+width: 75vw;
+}
+li {
+display: inline-block;
+border: 1.75px solid;
+border-radius: 30px;
+background-color: var(--bright-bg-color);
+padding: 5px;
+margin: 5px 5px 5px 0px;
+font-size: 0.50rem;
+}
+li:hover {
+background-color: var(--dark-bg-color);
+}
+.spacer {
+background-color: var(--dark-bg-color);
+height: 1.25vh;
+}
+.large-spacer {
+height: 50vh;
+background: url(./img/sketch1.jpg) no-repeat fixed 0vh;
+background-size: 100%;
+}
+
+ul {
+padding-inline-start: 0vw;
+}
+a {
+text-decoration: none;
+color: white;
+}
+.bio {
+display:flex;
+background-color: var(--main-text-bg-color);
+opacity: 95%;
+flex-flow: column wrap;
+}
+.hero {
+border-radius: 1px var(--dark-bg-color);
+padding: 10px;
+
+/* flex: 1 1 0px; */
+}
+.intro-text {
+color: black;
+margin: 0px, 0px, 5px, 0px;
+padding: 5%;
+font-size: 0.8rem;
+/* flex: 1 1 0px; */
+}
+.hero-img {
+    width: 50vw;
+}
+/* .start > * {
+text-align: justify;
+} */
+/* @media (max-width: 400px) {
+.intro-text {
+    font-size: 0.80rem;
+}
+.hero-img {
+    width: 50vw;
+}
+img {
+    width: 75vw;
+}
+iframe {
+    width: 75vw;
+}
+li {
+    font-size: 0.50rem;
+}
+header {
+    font-size: 1.15rem;
+}
+} */
+@media (min-width: 400px) {
+    .intro-text {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 40vw;
+    }
+    li {
+        font-size: 1rem;
+    }
+    header {
+        font-size: 1.65rem;
+    }
+}

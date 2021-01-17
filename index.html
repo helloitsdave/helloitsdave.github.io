@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NEAL HUGHES ART</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> 
+        <title>HTML Test</title>
+        <style>
+            :root {
+                    --text-bg-color:  rgb(255, 255, 255);
+                    --main-text-bg-color:  rgb(255, 255, 255);
+                    --bright-bg-color: rgb(0, 0, 0);
+                    --dark-bg-color: black;
+                    --light-text-color: rgb(255, 255, 255);
+            }
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html {
+                /* border: solid 1px; */
+                text-align: center;
+                font-family: 'Oswald';
+                font-size: 20px;
+                color: white;
+                background-size: 100vw;
+                position: relative;
+                /* background: url(./img/sketch3.jpg) fixed;    */
+            }
+            main {
+                display: flex;
+                flex-direction: column;
+            }
+            .inner-text {
+                background: var(--text-bg-color);
+                opacity: 90%;
+                text-align: center;
+                flex: 1 1 0px;
+                color: black;
+            }
+            header {
+                background-color: white;
+                font-size: 1.15rem;
+                color: black;
+            }
+            footer {
+                background-color: var(--bright-bg-color);
+                font-size: 1.5rem;
+                opacity: 90%;
+            }
+            section {
+                flex-wrap: 100%;
+                font-size: 0.75rem;
+            } 
+            .strip {
+                background-color: var(--bright-bg-color);
+                font-size: 2rem;
+                color: var(--main-text-bg-color);
+            }
+            nav {
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                background-color: var(--bright-bg-color);
+                opacity: 95%;
+            }
+            img {
+                width: 75vw;
+                border-radius: 15px;
+                margin: 5px;
+            } 
+            iframe {
+                border-radius: 5px;
+                margin: 5px;
+                width: 75vw;
+            }
+            li {
+                display: inline-block;
+                border: 1.75px solid;
+                border-radius: 30px;
+                background-color: var(--bright-bg-color);
+                padding: 5px;
+                margin: 5px 5px 5px 0px;
+                font-size: 0.50rem;
+            }
+            li:hover {
+                background-color: var(--dark-bg-color);
+            }
+            .spacer {
+                background-color: var(--dark-bg-color);
+                height: 1.25vh;
+            }
+            .large-spacer {
+                height: 50vh;
+                background: url(./img/sketch1.jpg) no-repeat fixed 0vh;
+                background-size: 100%;
+            }
+   
+            ul {
+                padding-inline-start: 0vw;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            .bio {
+                display:flex;
+                background-color: var(--main-text-bg-color);
+                opacity: 95%;
+                flex-flow: column wrap;
+            }
+            .hero {
+                border-radius: 1px var(--dark-bg-color);
+                padding: 10px;
+                
+                /* flex: 1 1 0px; */
+            }
+            .intro-text {
+                color: black;
+                margin: 0px, 0px, 5px, 0px;
+                padding: 5%;
+                font-size: 0.8rem;
+                /* flex: 1 1 0px; */
+            }
+            .hero-img {
+                    width: 50vw;
+                }
+            /* .start > * {
+                text-align: justify;
+            } */
+            /* @media (max-width: 400px) {
+                .intro-text {
+                    font-size: 0.80rem;
+                }
+                .hero-img {
+                    width: 50vw;
+                }
+                img {
+                    width: 75vw;
+                }
+                iframe {
+                    width: 75vw;
+                }
+                li {
+                    font-size: 0.50rem;
+                }
+                header {
+                    font-size: 1.15rem;
+                }
+            } */
+            @media (min-width: 400px) {
+                .intro-text {
+                    font-size: 1rem;
+                }
+  
+                img {
+                    width: 40vw;
+                }
+                li {
+                    font-size: 1rem;
+                }
+                header {
+                    font-size: 1.65rem;
+                }
+            }
+        </style>
+    </head>
+    <body>  
+        <nav>
+            <ul>
+                <li><a href='#paintings'>PAINTING</a></li>
+                <li><a href='#sketches'>SKETCHES</a></li>
+                <li><a href='#film'>FILM</a></li>
+                <li><a href='#music'>MUSIC</a></li>
+                <li><a href='#social-media'>CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- <div class='spacer'></div> -->
+        <header><h1>NEAL MARTIN HUGHES</h1></header>
+        <div class='spacer'></div>
+        <!-- <div class='large-spacer'></div> -->
+
+            <main>
+                <div class='bio'>
+                    <div class='hero'><img class='hero-img' src='img/headshot.jpg' alt='Neal Mug'/></div>
+                    <div class='intro-text'><p> <strong>Neal Hughes</strong> is an Irish artist, singer, musician, songwriter and film-maker originally from Dungannon, Northern Ireland. </p> 
+                       <p>He previously worked as an Arts researcher at the BBC before returning to college to finish a BSC in Social Sciences in 2014 and went on to study an MA degree at the Irish World Academy of Music and Dance at the University of Limerick, graduating with a 2.1 in 2017.</p>
+                       <p>Neal currently works as a Music Therapist based in Belfast. </p>
+                    </div>
+                </div>
+            <section id='paintings'><h2 class='strip'>PAINTINGS</h2>
+                    <img src='img/art4.jpg' alt='Pic 4'/>
+                    <img src='img/art1.jpg' alt='Pic 1'/>
+                    <img src='img/art2.jpg' alt='Pic 2'/>
+                    <img src='img/art3.jpg' alt='Pic 3'/>
+            </section>
+            <section id='sketches'><h2 class='strip'>SKETCHES</h2>
+                <img src='img/sketch1.jpg' alt='Sketch 1'/>
+                <img src='img/sketch2.jpg' alt='Sketch 2'/>
+                <img src='img/sketch3.jpg' alt='Sketch 3'/>
+                <img src='img/sketch4.jpg' alt='Sketch 4'/>
+            </section>
+            <section id='film'><h2 class='strip'>FILM</h2>
+                <div class='inner-text'>
+                    <h3>The Kiosk</h3>
+                    <p>This is Neal’s debut as a Director. 
+                    <p>The Kiosk was mostly shot by Neal with help of his colleague Gavin McCauley who assisted in shooting time lapses and consultant on editing.</p> 
+                    <p>The film was shot over two summers and is a unique view of street life from a little kiosk in which Neal worked as a Barista.</p>
+                </div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Q1Xh3n_t_Ls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id='music'><h2 class='strip'>MUSIC</h2>
+                <div class='inner-text'>
+                </div>
+                <iframe width="300" height="300" src="https://www.youtube-nocookie.com/embed/FMGa2-Ju6_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe height="300" width="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/75241310&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                <iframe style="border: 0; width: 300px; height: 300px;" src="https://bandcamp.com/EmbeddedPlayer/album=549944101/size=large/bgcol=ffffff/linkcol=63b2cc/minimal=true/transparent=true/" seamless><a href="https://drivingbynight.bandcamp.com/album/bbc-sessions">BBC Sessions by drivingbynight</a></iframe>
+                <iframe src="https://open.spotify.com/embed/artist/39s2RmxdSgB6i4IlccxcKU" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <ul>
+                    <li>youtube</li>
+                    <li>soundcloud</li>
+                    <li>bandcamp</li>
+                </ul>
+            </section>
+            <section id='social-media'><h2 class='strip'>CONTACT</h2>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li>facebook</li>
+                <li>twitter</li>
+                <li>email</li>
+            </ul>
+        </footer>
+        <div class='spacer'></div>
+    </body>
+</html>

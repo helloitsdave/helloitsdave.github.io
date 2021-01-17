@@ -69,6 +69,7 @@ section {
     background-color: var(--bright-bg-color);
     font-size: 1.2rem;
     color: var(--main-text-bg-color);
+    margin-top: 0;
 }
 nav {
     position: sticky;
@@ -144,6 +145,7 @@ p {
 
 .hero-img {
     width: 75vw;
+    border-radius: 15px;
 }
 
 @media (min-width: 390px) {

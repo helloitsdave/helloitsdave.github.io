@@ -132,7 +132,6 @@ a {
 .hero {
     border-radius: 1px var(--dark-bg-color);
     padding-top: 1rem;
-    padding-left: 1rem;
 /* flex: 1 1 0px; */
 }
 

@@ -34,7 +34,7 @@ main {
     color: black;
     line-height: 1.4;
     font-weight: lighter;
-    padding: 5%;
+    padding: 1rem;
     font-size: 0.8rem;
 }
 
@@ -100,6 +100,10 @@ li {
     font-size: 0.50rem;
 }
 
+.li-buttons {
+    padding: 10px;
+}
+
 .spacer {
     background-color: var(--dark-bg-color);
     height: 1.25vh;
@@ -127,7 +131,8 @@ a {
 
 .hero {
     border-radius: 1px var(--dark-bg-color);
-    padding: 10px;
+    padding-top: 1rem;
+    padding-left: 1rem;
 /* flex: 1 1 0px; */
 }
 
@@ -147,7 +152,6 @@ p {
 
 .hero-img {
     width: 75vw;
-    border-radius: 15px;
 }
 
 @media (min-width: 390px) {
@@ -177,6 +181,9 @@ p {
 @media (min-width: 800px) {
     .hero-img {
         width: 30vh;
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
     }
     img {
         width: 40vw;

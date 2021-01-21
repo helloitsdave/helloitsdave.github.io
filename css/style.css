@@ -1,7 +1,7 @@
 :root {
     --text-bg-color:  rgb(255, 255, 255);
     --main-text-bg-color:  rgb(255, 255, 255);
-    --bright-bg-color: rgb(8, 97, 104);
+    --bright-bg-color: rgb(10, 84, 134);
     --dark-bg-color: black;
     --light-text-color: rgb(255, 255, 255);
 }
@@ -24,6 +24,11 @@ html {
 main {
     display: flex;
     flex-direction: column;
+    background: 
+    /* linear-gradient(
+      rgba(14, 13, 13, 0.6),
+      rgba(8, 0, 0, 0.6)
+    ),url(/img/sketch4.jpg) 0vh fixed; */
 }
 
 .inner-text {
@@ -36,6 +41,9 @@ main {
     padding: 1rem;
     font-size: 0.8rem;
     flex: 1;
+    box-shadow: 0.5rem 0.5rem black;
+    border: 1px black solid;
+    margin: 1rem;
 }
 
 .uppercase {
@@ -43,7 +51,7 @@ main {
 }
 
 header {
-    background-color: white;
+    background-color: black;
     font-size: 1.15rem;
     color: white;
     line-height: 2.2rem;
@@ -51,7 +59,7 @@ header {
     linear-gradient(
       rgba(14, 13, 13, 0.6),
       rgba(8, 0, 0, 0.6)
-    ),url(/img/sketch1.jpg) 0vh;
+    ),url(/img/art1.jpg) 0vh;
     text-shadow: 5px 3px 2px var(--bright-bg-color);
     padding: 20px 20px 20px 0px;
 }
@@ -64,16 +72,19 @@ footer {
 section {
     font-size: 0.75rem;
 }
+
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
+
 .strip {
     background-color: var(--bright-bg-color);
     font-size: 1.2rem;
     color: var(--main-text-bg-color);
     margin-top: 0;
-    margin-bottom: 4px;
+    margin-bottom: 0.5rem;
     display: flex;
     justify-content: center;
 }
@@ -90,9 +101,7 @@ img {
 } 
 iframe {
     border-radius: 5px;
-    margin: 2px;
-    width: 300px;
-    height: 300px;
+    margin: 0.75rem;
     flex: 2;
 }
 
@@ -129,10 +138,11 @@ a {
     color: white;
 }
 .bio {
-    display:flex;
+    display: flex;
     background-color: var(--main-text-bg-color);
     opacity: 95%;
     flex-flow: column wrap;
+    flex-direction: column-reverse;
 }
 
 .hero {
@@ -148,15 +158,22 @@ p {
 
 .intro-text {
     color: black;
-    padding: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
     font-size: 0.8rem;
     text-align: left;
     font-weight: 300;
 /* flex: 1 1 0px; */
 }
 
+.youtube {
+    height: 45vh;
+    width: 80vw;
+}
+
 .hero-img {
     width: 75vw;
+    border-radius: 25px;
 }
 
 @media (min-width: 390px) {
@@ -184,22 +201,44 @@ p {
 }
 
 @media (min-width: 800px) {
+
     .hero-img {
         width: 30vh;
         padding-top: 2rem;
-        padding-left: 2rem;
+        padding-left: 1rem;
         padding-bottom: 2rem;
     }
+
     img {
         width: 40vw;
+        background-color: white;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        border: 2px solid black;
+        border-radius: 2%;
+        margin: 1rem;
+        box-shadow: 0.5rem 0.5rem black;
     }
+
     .bio {
         flex-flow: row;
     }
+
     header {
         font-size: 2rem;
         line-height: 5rem;
         padding: 30px 30px 30px 0px;
         flex-direction: row;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .youtube {
+        height: 45vh;
+        width: 80vw;
     }
 }

@@ -1,7 +1,7 @@
 :root {
     --text-bg-color:  rgb(255, 255, 255);
     --main-text-bg-color:  rgb(255, 255, 255);
-    --bright-bg-color: rgb(8, 97, 104);
+    --bright-bg-color: rgb(13, 93, 184);
     --dark-bg-color: black;
     --light-text-color: rgb(255, 255, 255);
 }
@@ -43,15 +43,15 @@ main {
 }
 
 header {
-    background-color: white;
+    background-color: var(--light-text-color);
     font-size: 1.15rem;
     color: white;
     line-height: 2.2rem;
     background: 
     linear-gradient(
-      rgba(14, 13, 13, 0.6),
-      rgba(8, 0, 0, 0.6)
-    ),url(/img/sketch1.jpg) 0vh;
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.5)
+    ),url(/img/sketch1.jpg) 2vh;
     text-shadow: 5px 3px 2px var(--bright-bg-color);
     padding: 20px 20px 20px 0px;
 }

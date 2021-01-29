@@ -28,7 +28,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-attachment: fixed;
+    background-attachment:fixed;
+    -webkit-overflow-scrolling: touch;
 }
 
 .overlay {
@@ -122,14 +123,14 @@ img {
 }
 
 .hr-dark {
-    width: 35vw;
+    width: 30vw;
     color:rgb(0, 0, 0);
     border: 1px solid white;
     margin-bottom: 1rem;
 }
 
 .hr-light {
-    width: 35vw;
+    width: 30vw;
     border: 1px solid black;
     margin-bottom: 1rem;
 }

@@ -95,6 +95,7 @@ p {
     margin-left: 1rem;
     margin-right: 1rem;
     margin-bottom: 0.5rem;
+    font-size: 1rem;
 }
 
 .biography {
@@ -120,9 +121,16 @@ img {
     flex-direction: column;
 }
 
-hr {
-    width: 50vw;
-    border-top: 0.1rem solid rgb(0, 0, 0);
+.hr-dark {
+    width: 35vw;
+    color:rgb(0, 0, 0);
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
+
+.hr-light {
+    width: 35vw;
+    border: 1px solid black;
     margin-bottom: 1rem;
 }
 

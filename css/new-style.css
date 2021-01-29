@@ -10,9 +10,13 @@ body {
 }
 
 p {
-    line-height: 1.6rem;
+    line-height: 1.2rem;
     font-size: 0.8rem;
-    font-weight: 200;
+    font-weight: lighter;
+}
+
+h1 {
+    padding: 0.5rem;
 }
 
 
@@ -104,11 +108,25 @@ p {
 }
 
 img {
-    width: 90vw;
+    width: 95vw;
     padding-bottom: 0.25rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr {
+    width: 50vw;
+    border-top: 0.1rem solid rgb(0, 0, 0);
+    margin-bottom: 1rem;
 }
 
 .head-img {
     border-radius: 2rem; 
     width: 80vw;
+    padding-bottom: 1rem;
 }

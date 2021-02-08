@@ -53,18 +53,18 @@ h1 {
 }
 
 .hero-text-neal {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
 .hero-text-art {
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: 300;
     font-family: 'Playfair Display', serif;
 }
 
 .hero-text-oil {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
 }
 
@@ -72,7 +72,7 @@ h1 {
     display: flex;
     flex-direction: column; 
     align-items: center;
-    line-height: 5rem;
+    line-height: 3rem;
 }
 
 .dark-background {
@@ -127,6 +127,10 @@ section {
     color: black;
     background-color: white;
     box-shadow: 1px 2px 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-text-light {
@@ -135,6 +139,10 @@ section {
     padding: 0.5rem;
     color: black;
     box-shadow: 2px 5px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -182,6 +190,20 @@ img {
     width: 60vw;
 }
 
+@media (min-height: 400px) {
+
+    .hero-text-neal, .hero-text-oil {
+        font-size: 1.5rem;
+    }
+    
+    .hero-text-art {
+        font-size: 8rem;
+    }
+
+    .art {
+        line-height: 5rem;
+    }
+}
 
 @media (min-width: 800px) {
     .head-img {

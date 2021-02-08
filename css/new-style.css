@@ -205,7 +205,7 @@ img {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
     .head-img {
         width: 20vw;
     }

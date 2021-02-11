@@ -38,8 +38,8 @@ h1 {
 
 .overlay {
     position: absolute;
-    width: 50vw;
-    height: 60vh;
+    min-width: 50vw;
+    min-height: 40vh;
     /* top: 20vh;
     left: 20vw;  */
     background:rgba(0,0,0,0.5);
@@ -190,22 +190,9 @@ img {
     width: 60vw;
 }
 
-@media (min-height: 400px) {
 
-    .hero-text-neal, .hero-text-oil {
-        font-size: 1.5rem;
-    }
-    
-    .hero-text-art {
-        font-size: 8rem;
-    }
 
-    .art {
-        line-height: 5rem;
-    }
-}
-
-@media (min-width: 850px) {
+@media (min-width: 700px) {
     .head-img {
         width: 20vw;
     }

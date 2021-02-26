@@ -22,7 +22,7 @@ h1 {
 
 
 .hero {
-    color: white;
+    color: #fff;
     background: url('/img/art1.jpg');
     width: 100vw;
     height: 100vh;
@@ -47,7 +47,7 @@ h1 {
     /* top: 20vh;
     left: 20vw;  */
     background:rgba(0,0,0,0.5);
-    color: white;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,7 +128,7 @@ h1 {
 
 .light-background {    
     color: black;
-    background: white;
+    background: #fff;
 }
 
 section {
@@ -160,7 +160,7 @@ section {
 }
 
 .card > img {
-    border: 0.5rem solid white;
+    border: 0.5rem solid #fff;
     outline: 1px solid black;
     /* margin-bottom: 0.5rem; */
 }
@@ -170,7 +170,7 @@ section {
     border-radius: 0 0 0.75rem 0.75rem;
     padding: 0.5rem;
     color: black;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 1px 2px 2px;
     display: flex;
     justify-content: center;
@@ -183,7 +183,7 @@ section {
     border-radius: 0 0 0.75rem 0.75rem;
     padding: 0.5rem;
     color: black;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 2px 5px 5px;
     display: flex;
     justify-content: center;
